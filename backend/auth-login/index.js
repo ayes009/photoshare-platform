@@ -1,7 +1,4 @@
 
-// ============================================
-// FILE: auth-login/index.js
-// ============================================
 module.exports = async function (context, req) {
     const { username, password, role } = req.body;
 
@@ -13,8 +10,7 @@ module.exports = async function (context, req) {
         return;
     }
 
-    // In production, verify credentials against database
-    // For now, accept any credentials
+   
     const user = {
         id: Date.now().toString(),
         username,
