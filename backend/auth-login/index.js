@@ -1,25 +1,3 @@
-// ============================================
-// FILE: function.json (for each function)
-// ============================================
-
-// auth-login/function.json
-{
-  "bindings" [
-    {
-      "authLevel": "anonymous",
-      "type": "httpTrigger",
-      "direction": "in",
-      "name": "req",
-      "methods": ["post"],
-      "route": "auth/login"
-    },
-    {
-      "type": "http",
-      "direction": "out",
-      "name": "res"
-    }
-  ]
-}
 
 // ============================================
 // FILE: auth-login/index.js
