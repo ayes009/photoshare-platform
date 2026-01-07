@@ -1,9 +1,7 @@
-// ============================================
-// FILE: photos-rate/index.js
-// ============================================
+
 const { BlobServiceClient } = require("@azure/storage-blob");
 
-const STORAGE_ACCOUNT = "photosharestorage";
+const STORAGE_ACCOUNT = "photoshare123";
 const METADATA_CONTAINER = "metadata";
 const SAS_TOKEN = "sv=2024-11-04&ss=b&srt=co&sp=rwdctfx&se=2026-01-07T04:01:36Z&st=2026-01-06T19:46:36Z&spr=https&sig=JzbWbKVLzdBwWMmaZ6KeG2qRLRJui%2Ft8U1On3VPbqKU%3D";
 const BLOB_SERVICE_URL = `https://${STORAGE_ACCOUNT}.blob.core.windows.net`;
