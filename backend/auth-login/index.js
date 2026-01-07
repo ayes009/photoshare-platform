@@ -4,7 +4,7 @@
 
 // auth-login/function.json
 {
-  "bindings": [
+  "bindings" [
     {
       "authLevel": "anonymous",
       "type": "httpTrigger",
