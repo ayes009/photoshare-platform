@@ -1,6 +1,4 @@
-// ============================================
-// FILE: photos-get/function.json
-// ============================================
+============================================
 {
   "bindings":[
     {
@@ -19,13 +17,11 @@
   ]
 }
 
-// ============================================
-// FILE: photos-get/index.js
-// ============================================
+
 const { BlobServiceClient } = require("@azure/storage-blob");
 
 // Azure Blob Storage Configuration
-const STORAGE_ACCOUNT = "photosharestorage"; // Replace with your storage account name
+const STORAGE_ACCOUNT = "photoshares123"; 
 const CONTAINER_NAME = "photos";
 const SAS_TOKEN = "sv=2024-11-04&ss=b&srt=co&sp=rwdctfx&se=2026-01-07T04:01:36Z&st=2026-01-06T19:46:36Z&spr=https&sig=JzbWbKVLzdBwWMmaZ6KeG2qRLRJui%2Ft8U1On3VPbqKU%3D";
 const BLOB_SERVICE_URL = `https://${STORAGE_ACCOUNT}.blob.core.windows.net`;
