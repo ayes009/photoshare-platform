@@ -1,7 +1,4 @@
 
-// ============================================
-// FILE: auth-login/index.js
-// ============================================
 module.exports = async function (context, req) {
     const { username, password, role } = req.body;
 
