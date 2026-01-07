@@ -2,7 +2,7 @@
 // FILE: photos-post/function.json
 // ============================================
 {
-  "bindings" [
+  "bindings": [
     {
       "authLevel": "anonymous",
       "type": "httpTrigger",
