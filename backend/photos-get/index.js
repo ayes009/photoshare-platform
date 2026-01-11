@@ -21,7 +21,7 @@
 const { BlobServiceClient } = require("@azure/storage-blob");
 
 // Azure Blob Storage Configuration
-const STORAGE_ACCOUNT = "photoshares123"; 
+const STORAGE_ACCOUNT = "photoshare123"; 
 const CONTAINER_NAME = "photos";
 const SAS_TOKEN = "sv=2024-11-04&ss=b&srt=co&sp=rwdlactfx&se=2028-11-11T11:32:46Z&st=2026-01-11T03:17:46Z&spr=https&sig=XvR24bM1qrCo%2Fy%2F7J53h6K4y92qwpUJjrSlsMLfJjrI%3D";
 const BLOB_SERVICE_URL = `https://${STORAGE_ACCOUNT}.blob.core.windows.net`;
