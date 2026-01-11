@@ -4,9 +4,10 @@
     "AzureWebJobsStorage": "",
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "STORAGE_ACCOUNT": "photoshare123",
-    "SAS_TOKEN": "sv=2024-11-04&ss=b&srt=co&sp=rwdctfx&se=2026-01-07T04:01:36Z&st=2026-01-06T19:46:36Z&spr=https&sig=JzbWbKVLzdBwWMmaZ6KeG2qRLRJui%2Ft8U1On3VPbqKU%3D"
+    "SAS_TOKEN": "sp=r&st=2026-01-11T16:46:05Z&se=2027-01-12T01:01:05Z&sv=2024-11-04&sr=c&sig=T5cBkAdtmKDIqrlWzvkiaHNonn1CabFSZ78TUP9Q9k4%3D"
   }
 
 }
+
 
 
