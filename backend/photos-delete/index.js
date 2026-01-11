@@ -4,7 +4,7 @@ const { BlobServiceClient } = require("@azure/storage-blob");
 const STORAGE_ACCOUNT = "photoshare123";
 const CONTAINER_NAME = "photos";
 const METADATA_CONTAINER = "metadata";
-const SAS_TOKEN = "sv=2024-11-04&ss=b&srt=co&sp=rwdctfx&se=2026-01-07T04:01:36Z&st=2026-01-06T19:46:36Z&spr=https&sig=JzbWbKVLzdBwWMmaZ6KeG2qRLRJui%2Ft8U1On3VPbqKU%3D";
+const SAS_TOKEN = "sv=2024-11-04&ss=b&srt=co&sp=rwdlactfx&se=2028-11-11T11:32:46Z&st=2026-01-11T03:17:46Z&spr=https&sig=XvR24bM1qrCo%2Fy%2F7J53h6K4y92qwpUJjrSlsMLfJjrI%3D";
 const BLOB_SERVICE_URL = `https://${STORAGE_ACCOUNT}.blob.core.windows.net`;
 
 module.exports = async function (context, req) {
